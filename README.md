@@ -38,28 +38,28 @@ Converts the sentences into a ***One-Hot Encoding*** representation based on a d
 
 ## Code Explanation
 1. ***one_hot(words, voc_size)***: Converts a word into its one-hot representation based on the vocabulary size.
-2. ***pad_sequences(onehot_repr, padding='pre', maxlen=sent_length)***: Pads the one-hot encoded sequences to a fixed length (sent_length) by adding zeros at the beginning (padding='pre').
-3. ***Embedding(voc_size, dim, input_length=sent_length)***: Creates an embedding layer with voc_size as the input dimension (vocabulary size), dim as the output dimension (embedding size), and input_length as the fixed length of input sequences.
-4. ***Sequential()***: Initializes a Keras Sequential model.
-5. ***model.add(...)***: Adds layers to the sequential model.
-6. ***model.compile('adam', 'mse')***: Configures the model for training (although no training is performed in this example).
-7. ***model.summary()***: Prints a summary of the model architecture.
-8. ***model.predict(embedded_docs)***: Generates the word embeddings for the padded sequences.
+3. ***pad_sequences(onehot_repr, padding='pre', maxlen=sent_length)***: Pads the one-hot encoded sequences to a fixed length (sent_length) by adding zeros at the beginning (padding='pre').
+4. ***Embedding(voc_size, dim, input_length=sent_length)***: Creates an embedding layer with voc_size as the input dimension (vocabulary size), dim as the output dimension (embedding size), and input_length as the fixed length of input sequences.
+5. ***Sequential()***: Initializes a Keras Sequential model.
+6. ***model.add(...)***: Adds layers to the sequential model.
+7. ***model.compile('adam', 'mse')***: Configures the model for training (although no training is performed in this example).
+8. ***model.summary()***: Prints a summary of the model architecture.
+9. ***model.predict(embedded_docs)***: Generates the word embeddings for the padded sequences.
 
 
 ## Usage
 To run the project, follow these steps:
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Face-Mask-Detection-using-CNN.git
+git clone https://github.com/yourusername/Word-Embedding-Techniques-using-Embedding-Layer-in-Keras.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd Face-Mask-Detection-using-CNN
+cd Word-Embedding-Techniques-using-Embedding-Layer-in-Keras
 ```
 4. Run the Jupyter notebook:
 ```bash
-jupyter notebook Face_Mask_Detection_using_CNN.ipynb
+jupyter notebook Word_Embedding_Techniques_using_Embedding_Layer_in_Keras.ipynb
 ```
 Run the notebook cells sequentially to see the text processing and embedding steps.
 
