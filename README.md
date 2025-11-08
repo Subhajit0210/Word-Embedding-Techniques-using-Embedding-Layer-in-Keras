@@ -1,49 +1,40 @@
 # Word-Embedding-Techniques-using-Embedding-Layer-in-Keras
 
-Word embeddings provide a dense representation of words and their relative meanings. They are an improvement over sparse representations used in simpler bag-of-words models. Word embeddings can be learned from text data and reused among projects. They can also be understood as part of fitting a neural network on text data.
+Word Embeddings provide a dense representation of words and their relative meanings. They are an improvement over sparse representations used in simpler bag-of-words models. Word embeddings can be learned from text data and reused among projects. They can also be understood as part of fitting a neural network on text data.
 
 Reference Link - https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/
 
 ## Table of Contents
-- [Overview](#overview)
 - [Import Libraries](#import-libraries)
 - [Example Sentences](#example-sentences)
-- [Data Preparation](#data-preparation)
-- [CNN Model](#cnn-model)
+- [One Hot Representation](#one-hot-representation)
+- [Word Embedding Representation](#word-embedding-representation)
+- [Requirements](#requirements)
 - [Code Explanation](#code-explanation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-
-## Overview
-The notebook covers the following steps:
-
 ## Import Libraries
-Imports necessary TensorFlow and Keras libraries.
+Imports necessary ***TensorFlow*** and ***Keras*** libraries.
 
 ## Example Sentences
 Defines a list of sample sentences for demonstration.
 
-One Hot Representation
+## One Hot Representation
 Converts the sentences into a one-hot encoding representation based on a defined vocabulary size.
 
+## Word Embedding Representation
+1. Uses the Embedding layer to create word embeddings.
+2. Utilizes pad_sequences to ensure all input sequences have the same length.
+3. Builds a Sequential model with an Embedding layer.
+4. Compiles the model.
+5. Shows the model summary.
+6. Predicts the embedded representation of the example sentences.
 
-
-Word Embedding Representation:
-Uses the Embedding layer to create word embeddings.
-Utilizes pad_sequences to ensure all input sequences have the same length.
-Builds a Sequential model with an Embedding layer.
-Compiles the model.
-Shows the model summary.
-Predicts the embedded representation of the example sentences.
-
-
-Requirements
-TensorFlow 2.0+
-Keras (integrated within TensorFlow)
-Numpy
-
-
+## Requirements
+1. TensorFlow 2.0+
+2. Keras (integrated within TensorFlow)
+3. Numpy
 
 ## Code Explanation
 1. **one_hot(words, voc_size)**: Converts a word into its one-hot representation based on the vocabulary size.
