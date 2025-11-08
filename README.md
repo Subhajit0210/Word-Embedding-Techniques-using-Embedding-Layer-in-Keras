@@ -10,18 +10,18 @@ Reference Link - https://machinelearningmastery.com/use-word-embedding-layers-de
 - [Example Sentences](#example-sentences)
 - [Data Preparation](#data-preparation)
 - [CNN Model](#cnn-model)
-- [Results and Insights](#results-and-insights)
+- [Code Explanation](#code-explanation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
 
-##Overview
+## Overview
 The notebook covers the following steps:
 
-##Import Libraries
+## Import Libraries
 Imports necessary TensorFlow and Keras libraries.
 
-##Example Sentences
+## Example Sentences
 Defines a list of sample sentences for demonstration.
 
 One Hot Representation
