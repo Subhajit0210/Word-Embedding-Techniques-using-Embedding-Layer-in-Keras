@@ -15,13 +15,13 @@ Reference Link - https://machinelearningmastery.com/use-word-embedding-layers-de
 - [Contributing](#contributing)
 
 
-Overview
+##Overview
 The notebook covers the following steps:
 
-Import Libraries
+##Import Libraries
 Imports necessary TensorFlow and Keras libraries.
 
-Example Sentences
+##Example Sentences
 Defines a list of sample sentences for demonstration.
 
 One Hot Representation
