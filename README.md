@@ -1,6 +1,6 @@
-# Word-Embedding-Techniques-using-Embedding-Layer-in-Keras
+# Word Embedding Techniques using Embedding Layer in Keras
 
-***Word Embeddings*** provide a dense representation of words and their relative meanings. They are an improvement over sparse representations used in simpler ***Bag-of-Words*** models. Word Embeddings can be learned from text data and reused among projects. They can also be understood as part of fitting a neural network on text data.
+***Word Embeddings*** provide dense representations of words and their related meanings. They are an improvement over sparse representations used in simpler ***Bag-of-Words*** models. Word Embeddings can be learned from text data and reused among projects. They can also be understood as part of fitting a neural network on text data.
 
 Reference Link - https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/
 
